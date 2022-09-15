@@ -6,21 +6,23 @@ public class Elevator {
     private int numberOfFloors	;
 	private boolean doorOpen;
 	
-	public Elevator(int totalNumberOffloors){
+	public void Elevator(int totalNumberOffloors){
+		this.numberOfFloors=numberOfFloors;
+	}
+	public boolean getOpenDoor() {
+		return doorOpen=true;
 		
 	}
-	public void openDoor() {
-		
-		
-	}
-	public void closeDoor() {
+	public boolean  getcloseDoor() {
+		return  doorOpen=false;
 		
 	}
-	public void goUp(int desiredFloor) {
-		
+	public int getgoUp(int desiredFloor) {
+		return desiredFloor;
+				
 	}
-	public void goDown(int desiredFloor) {
-		
+	public int getgodown(int desiredFloor) {
+		return desiredFloor;
 	}
 	public int getCurrentFloor() {
 		return currentFloor;

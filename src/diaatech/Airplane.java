@@ -10,9 +10,12 @@ public class Airplane {
 	private int availableCoachSeats;
 	private int totalCoachSeats;
 	
-	Airplane(String planeNumber, int totalFirstClassSeats, int totalCoachSeats){
-		
+	public void Airplane(String planeNumber, int totalFirstClassSeats, int totalCoachSeats){
+		this.planeNumber=planeNumber;
+		this.totalFirstClassSeats=totalFirstClassSeats;
+		this.totalCoachSeats=totalFirstClassSeats;
 	}
+	
 	
 	public void setReserveSeats(boolean forFirstClass, int totalNumberOfSeats) {
 		if(forFirstClass=true) {

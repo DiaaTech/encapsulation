@@ -13,9 +13,8 @@ public class Employee {
 		
 	}
 	
-	public void RaiseSalary(double percent) {
-		annualSalary=annualSalary*percent;
-		
+	public void getRaiseSalary(double percent) {
+		this.annualSalary=percent;		
 	}
 
 	public int getEmployeeId() {

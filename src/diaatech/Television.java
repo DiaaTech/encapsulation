@@ -1,39 +1,58 @@
 package diaatech;
 
 public class Television {
+
 // Your code here.
 	private boolean isOn;
 	private int currentChannel;
 	private int currentVolume;
-	private String turnOff;
-	private String turnOn;
-	private int channel;
-	private int volume;
-	private int newChannel;
 	
-	public void setTurnOff(String turnOff) {
-		this.turnOff=turnOff;
+	public boolean  getturnOff() {
+	
+		return isOn=false;
 	}
-	public void setTurnOn(String turnOn, int channel ,int volume ) {
-		this.turnOn=turnOn;
-		this.channel=channel;
-		this.volume=volume;
+	public boolean turnOn() {
+		return isOn=true;
 	}
-	public void setChangeChannel(int newChannel) {
-		this.newChannel=newChannel;
+	public void getchangeChannel(int newChannel) {
+	this.currentChannel=currentChannel;
+	this.isOn=isOn;
+	}
+		
+	
+	public int  getchannelUp() {
+	if(isOn=true && currentChannel>18) {
+		return currentChannel=currentChannel++;
+	}
+	else {
+	return currentChannel=3;
+	}
+	
 		
 	}
-	public void channelUp() {
+	public int getchannelDown() {
+		if(isOn=true && currentChannel<3) {
+		return currentChannel=currentChannel--;
+		}
+		else {
+			return currentChannel=18;
+		}
+		
+	}
+	public int getraiseVolume() {
+		if(isOn=true && currentChannel<=10) {
+		return currentVolume=currentVolume++;
+		}
+		return currentChannel;
+	
 		
 		
 	}
-	void channelDown() {
-		
-	}
-	void raiseVolume() {
-		
-	}
-	void lowerVolume() {
+	public  int getlowerVolume() {
+		if(isOn=true && currentVolume<=0) {
+			return currentVolume=currentVolume--;
+		}
+		return currentChannel;
 		
 	}
 	public boolean isOn() {

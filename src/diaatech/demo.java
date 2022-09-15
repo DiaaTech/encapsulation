@@ -4,10 +4,11 @@ public class demo {
 
 	public static void main(String[] args) {
 		//answer no.1 : HomeWorkAssignment. 
+		/*
 		HomeWorkAssignment homeWorkAssig = new HomeWorkAssignment();
 		
-	    homeWorkAssig.setLetterGrade("A");
-	    homeWorkAssig.setPossibleMarks(0);
+		homeWorkAssig.setLetterGrade("A");
+	    homeWorkAssig.setPossibleMarks(60);
 	    homeWorkAssig.setSubmitterName("RONALDO");
 	    homeWorkAssig.setTotalMarks(80);
 	    
@@ -15,7 +16,7 @@ public class demo {
          System.out.println(homeWorkAssig.getPossibleMarks());
          System.out.println(homeWorkAssig.getSubmitterName());
          System.out.println(homeWorkAssig.getTotalMarks());
-       
+       */
 		//answer no.2:FruitTree.
 		/*
 		FruitTree myFruitTree = new FruitTree("banana", 10);
@@ -26,7 +27,7 @@ public class demo {
 		
 		System.out.println(myFruitTree.getTypeOfFruit());
 		System.out.println(myFruitTree.getPiecesOfFruitLeft());
-        System.out.println(myFruitTree.pickFruit(0));
+        System.out.println(myFruitTree.pickFruit(10));
       */
 		//answer no.3: Employee.
 		/*
@@ -37,7 +38,7 @@ public class demo {
 		myEmployee.setLastName("nelson");
 		myEmployee.setFullName("");
 		myEmployee.setDepartment("Accounting");
-		myEmployee.setAnnualSalary(2000);
+		myEmployee.setAnnualSalary(100000);
 		
 		
 		 System.out.println(myEmployee.getEmployeeId());
@@ -49,15 +50,14 @@ public class demo {
 		*/
 		//answer no.4:Airplane.
 		/*
-		Airplane myAirplane =new Airplane("", 0,0);
+		Airplane myAirplane =new Airplane();
 		myAirplane.setAvailableFirstClassSeats(0);
 		myAirplane.setBookedFirstClassSeats(40);
 		myAirplane.setTotalFirstClassSeats(50);
 		myAirplane.setAvailableCoachSeats(0);
 		myAirplane.setBookedCoachSeats(30);
 		myAirplane.setTotalCoachSeats(50);
-		myAirplane.setPlaneNumber("A562");
-		myAirplane.setReserveSeats(true,0);
+		myAirplane.setPlaneNumber("AM1625");
 		
 		 System.out.println(myAirplane.getAvailableFirstClassSeats());
 		 System.out.println(myAirplane.getBookedFirstClassSeats());
@@ -66,10 +66,41 @@ public class demo {
 		 System.out.println(myAirplane.getBookedCoachSeats());
 		 System.out.println(myAirplane.getTotalCoachSeats());
 		 System.out.println(myAirplane.getPlaneNumber());
-		*/
+	*/
 		//answer no.5:Television.
+		/*
 		Television myTv= new Television();
 		
+		myTv.setCurrentChannel(30);
+		myTv.setCurrentVolume(6);
+		myTv.setOn(true);
+		
+		
+		
+		 System.out.println(myTv.getCurrentChannel());
+		 System.out.println(myTv.getCurrentVolume());
+		 System.out.println(myTv.getchannelUp());
+		 System.out.println(myTv.getchannelDown());
+		 System.out.println(myTv.getturnOff());
+		 System.out.println(myTv.getlowerVolume());
+		 System.out.println(myTv.getraiseVolume());
+		
+		*/
+		//answer no.6:Elevator.
+		/*
+		Elevator myElevator=new Elevator();
+		myElevator.setCurrentFloor(8);
+		myElevator.setNumberOfFloors(10);
+	
+		 System.out.println(myElevator.getCurrentFloor());
+		 System.out.println(myElevator.getNumberOfFloors());
+		 System.out.println(myElevator.getOpenDoor());
+		 System.out.println(myElevator.getcloseDoor());
+		 System.out.println(myElevator.getgoUp(6));
+		 System.out.println(myElevator.getgodown(2));
+		 */
   }
+
+	
 
 }
