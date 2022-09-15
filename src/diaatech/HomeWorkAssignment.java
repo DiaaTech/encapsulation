@@ -7,7 +7,7 @@ public class HomeWorkAssignment {
 	private String submitterName;	
 	private String letterGrade;
 	
-	public void HomeworkAssignment(int possibleMarks) {
+	public void setHomeworkAssignment(int possibleMarks) {
 		if (totalMarks <= 100 && totalMarks >= 90) {
              letterGrade =("Grade:  A");
         } else if (totalMarks < 90 && totalMarks >= 80) {
@@ -19,6 +19,7 @@ public class HomeWorkAssignment {
         } else if (totalMarks < 60) {
         	letterGrade = ("Grade: F");
         }
+		
 		   
 	}
 	
@@ -54,4 +55,6 @@ public class HomeWorkAssignment {
 		this.letterGrade=letterGrade; 
 		
 	}
+
+	
 }

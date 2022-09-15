@@ -4,19 +4,20 @@ public class demo {
 
 	public static void main(String[] args) {
 		//answer no.1 : HomeWorkAssignment. 
-		/*
+		
 		HomeWorkAssignment homeWorkAssig = new HomeWorkAssignment();
 		
 		homeWorkAssig.setLetterGrade("A");
-	    homeWorkAssig.setPossibleMarks(60);
+	    homeWorkAssig.setPossibleMarks(70);
 	    homeWorkAssig.setSubmitterName("RONALDO");
-	    homeWorkAssig.setTotalMarks(80);
+	    homeWorkAssig.setTotalMarks(70);
+	    homeWorkAssig.setHomeworkAssignment(65);
 	    
+	     System.out.println(homeWorkAssig.getSubmitterName());
          System.out.println(homeWorkAssig.getLetterGrade());
          System.out.println(homeWorkAssig.getPossibleMarks());
-         System.out.println(homeWorkAssig.getSubmitterName());
          System.out.println(homeWorkAssig.getTotalMarks());
-       */
+        
 		//answer no.2:FruitTree.
 		/*
 		FruitTree myFruitTree = new FruitTree("banana", 10);
